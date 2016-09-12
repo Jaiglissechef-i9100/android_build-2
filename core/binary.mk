@@ -30,7 +30,6 @@ else
   endif
 endif
 
-<<<<<<< HEAD
 # Many qcom modules don't correctly set a dependency on the kernel headers. Fix it for them,
 # but warn the user.
 ifneq (,$(findstring $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include,$(LOCAL_C_INCLUDES)))
@@ -39,7 +38,7 @@ ifneq (,$(findstring $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include,$(LOCAL_
     LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
   endif
 endif
-=======
+
 # Copyright (C) 2014-2015 UBER
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -201,7 +200,6 @@ endif
 endif
 endif
 #####
->>>>>>> 704918b... Get the M Optimization party started
 
 # The following LOCAL_ variables will be modified in this file.
 # Because the same LOCAL_ variables may be used to define modules for both 1st arch and 2nd arch,
