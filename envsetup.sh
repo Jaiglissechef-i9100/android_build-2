@@ -1,3 +1,6 @@
+export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"
+./prebuilts/sdk/tools/jack-admin kill-server
+./prebuilts/sdk/tools/jack-admin start-server
 . vendor/cm/tools/rr_variant.sh && ./vendor/cm/tools/changelog.sh &&
 function hmm() {
 cat <<EOF
